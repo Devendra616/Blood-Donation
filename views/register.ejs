@@ -101,6 +101,8 @@
                         name="password"
                         id="password_data"
                         required
+                        pattern="^(?=.*[A-Za-z])(?=.*\d)(?=.*[@$!%*#?&])[A-Za-z\d@$!%*#?&]{8,}$"
+                        title="Must contain 8 or more characters with a mix of letters, numbers & symbols."
                         aria-describedby="passwordHelp"
                       />
                       <span class="input-group-text">
